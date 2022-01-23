@@ -1,0 +1,60 @@
+body {
+    text-align: center;
+    background-color: rgba(200, 198, 135,0.25);
+}
+
+
+.button {
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+    border: 5px solid grey;
+    margin: 10px;
+    padding:5px;
+    height: 360px;
+    width: 360px;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+
+.button:hover{
+    color: rgb(19, 11, 1);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19)
+}
+
+.rock {
+    background-image: url(./images/rock.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.paper {
+    background-image: url(./images/paper.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.scissor {
+    background-image: url(./images/scissor.png);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', cursive, Verdana, sans-serif;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#sentence {
+    border: 4px solid black;
+    width: 25%;
+    margin-left: 38%;
+    background-color: rgba(222, 184, 135,0.35);
+}
+
+#sentence:hover {
+    border: 4px solid black;
+    width: 25%;
+    margin-left: 38%;
+    background-color: rgba(222, 184, 135,0.55);
+}
+
+h1{
+    color: rgba(1,10,100,0.6790);
+}
